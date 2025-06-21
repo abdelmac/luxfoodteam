@@ -151,6 +151,10 @@ export default function Products() {
                     {product.stock > 0 ? `${product.stock} in stock` : 'Out of stock'}
                   </p>
 
+                  {/* Price Display */}
+                  <p className="mt-2 text-lg font-medium text-gray-600">
+                    {product.price}
+                  </p>
                 </div>
               </div>
             </Link>
