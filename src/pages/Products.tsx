@@ -152,8 +152,8 @@ export default function Products() {
                   </p>
 
                   {/* Price Display */}
-                  <p className={`mt-1 text-sm font-medium ${product.price > 0 ? 'text-green-600' : 'text-red-600'}`}>
-                    {product.price > 0 ? `$${product.price.toFixed(2)}` : 'Price unavailable'}
+                  <p className="mt-2 text-lg font-medium text-gray-600">
+                    price-{product.price.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}
                   </p>
                 </div>
               </div>
