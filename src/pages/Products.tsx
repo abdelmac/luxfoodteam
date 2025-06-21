@@ -151,7 +151,6 @@ export default function Products() {
                     {product.stock > 0 ? `${product.stock} in stock` : 'Out of stock'}
                   </p>
 
-                  </p>
                 </div>
               </div>
             </Link>
