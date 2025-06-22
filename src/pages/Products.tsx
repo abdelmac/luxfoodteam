@@ -153,7 +153,7 @@ export default function Products() {
 
                   {/* Price Display */}
                   <p className="mt-1 text-sm text-gray-500">
-                    {t(`products.categories.${product.price}`)}
+                    {t(`products.price.${product.price}`)}
                   </p>
 
 
