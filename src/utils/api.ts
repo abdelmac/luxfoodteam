@@ -22,7 +22,7 @@ export async function fetchProducts(): Promise<Product[]> {
       description: item.description || '',
       description_ar: item.description_ar || '',
       stock: parseInt(item.stock),
-      price: parseFloat(item.price) || 0,
+      price: parseFloat(item.price),
     }));
   } catch (error) {
     console.error('Error fetching products:', error);
