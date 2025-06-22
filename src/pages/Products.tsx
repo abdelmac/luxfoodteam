@@ -153,10 +153,9 @@ export default function Products() {
 
                   {/* Price Display */}
                   <p className="mt-2 text-lg font-medium text-gray-600">
-                    {product.price > 0
-                      ? product.price.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })
-                      : t('products.priceUnavailable')}
+                    {Number(product.price).toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}
                   </p>
+
 
                 </div>
               </div>
