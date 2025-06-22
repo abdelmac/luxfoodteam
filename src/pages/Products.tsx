@@ -159,6 +159,7 @@ export default function Products() {
                   })}
                   </p>
 
+                  console.log("Produit:", product.name, " | Prix:", product.price, " | Stock:", product.stock);
 
 
                 </div>
