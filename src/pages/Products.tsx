@@ -158,10 +158,6 @@ export default function Products() {
                     currency: 'EUR',
                   })}
                   </p>
-
-                  console.log("Produit:", product.name, " | Prix:", product.price, " | Stock:", product.stock);
-
-
                 </div>
               </div>
             </Link>
