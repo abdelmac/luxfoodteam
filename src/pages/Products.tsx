@@ -159,7 +159,7 @@ export default function Products() {
                   })}
                   </p>
                 </div>
-              </div>
+              </div> 
             </Link>
           ))}
         </div>
